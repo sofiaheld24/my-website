@@ -23,6 +23,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/sofiaheldr/
 markdown_extensions:
+  - pymdownx.details
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.superfences:
@@ -34,6 +35,8 @@ markdown_extensions:
 # site_url: "https://sofiaheldruiz.de"
 
 plugins:
+  - bibtex:
+      bib_file: "refs.bib"
   - search
 
 extra_javascript:
