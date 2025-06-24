@@ -21,7 +21,7 @@ This qualitative study explored how distributed teams coordinate and maintain en
 3. **Boundary Blur**: Difficulty separating work/home due to flexible schedules, affecting attention.
 
 *(Embed or link to a summary infographic if available)*  
-<!-- ![Summary Infographic](../images/remote-collab-infographic.png) -->
+<!-- ![Summary Infographic](../images/remote-collab-infographic.png) 
 
 ## Recommendations & Impact
 - **Structured Communication Windows**: Suggest “focus hours” with minimal notifications; pilot with Team A resulted in a 15% self-reported increase in concentration.  

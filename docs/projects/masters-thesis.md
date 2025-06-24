@@ -36,7 +36,7 @@ This qualitative study explores how distributed teams coordinate and maintain en
 - **Virtual Social Rituals**: Weekly “coffee chat” sessions; feedback indicated improved team cohesion.  
 - **Boundary Guidelines**: Developed guidelines for after-hours messaging; adopted by leadership.
 
-<!-- A full report is available: [Download PDF](../assets/remote-collab-report.pdf) -->
+<!-- A full report is available: [Download PDF](../assets/remote-collab-report.pdf) 
 
 ## Reflections & Next Steps
 - Broader rollout and measurement of longer-term outcomes.
