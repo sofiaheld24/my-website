@@ -1,6 +1,8 @@
 # Increasing Employee Engagement with E-learning Plattforms (Redcare Pharmacy Internship)
 
-## Overview
+## Under Construction
+
+<!-- ## Overview
 This qualitative study explored how distributed teams coordinate and maintain engagement when working remotely. Conducted for a consulting engagement with Company X in Spring 2024.
 
 ## Background & Objectives
@@ -30,4 +32,4 @@ This qualitative study explored how distributed teams coordinate and maintain en
 
 ## Reflections & Next Steps
 - Broader rollout and measurement of longer-term outcomes.
-- Potential follow-up quantitative survey to measure impact across the organization.
+- Potential follow-up quantitative survey to measure impact across the organization. -->
