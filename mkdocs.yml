@@ -1,0 +1,48 @@
+site_name: "Sofia Held's Portfolio"
+site_author: "Sofia Held"
+site_description: "Portfolio showcasing behavioural science projects and research illustrative of my work."
+theme:
+  name: material
+  palette:
+    scheme: default
+  highlightjs: true
+  highlight_theme: 'ayu'  # try 'monokai', 'solarized-light', 'default', etc.
+nav:
+  - Home: index.md
+  - Projects:
+      - Message Framing for Physical Activity: projects/bachelor-thesis.md
+      - Increasing Vegetable Consumption in Children: projects/masters-thesis.md
+      - People Development Internship: projects/redcare-internship.md
+      - Market Research Internship: projects/caracol-internship.md
+  - About: about.md
+  - Contact: contact.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sofiaheld24
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/sofiaheldr/
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+# site_url: "https://sofiaheldruiz.de"
+
+plugins:
+  - search
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+  - js/mermaid-init.js
+  - js/arrows.js
+
+extra_css:
+  - css/cards.css
+  - css/timeline.css
+  - css/overrides.css

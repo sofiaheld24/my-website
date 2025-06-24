@@ -1,0 +1,103 @@
+/* General code block styling */
+code, pre {
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 0.9rem;
+  background-color: #f8f9fa; /* very light gray */
+  color: #2d2d2d;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  line-height: 1.6;
+  overflow-x: auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+/* Inline code styling */
+code {
+  background-color: #eff1f3;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+/* Remove box for inline code in headings */
+h1 code, h2 code, h3 code {
+  background: none;
+  padding: 0;
+}
+
+/* Optional: add a soft glow on hover */
+pre:hover {
+  box-shadow: 0 0 5px rgba(0,0,0,0.06);
+}
+
+/* Container that holds the carousel items */
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+  gap: 1rem;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  
+  /* Hide scrollbar (for WebKit browsers) */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+.vegp-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 1em auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.vegp-image-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.vegp-image-container img {
+  width: 100%;
+  display: none;
+  transition: opacity 0.5s ease;
+  cursor: default;
+}
+
+.vegp-image-container img.vegp-active {
+  display: block;
+  opacity: 1;
+}
+
+.vegp-arrow {
+  background: rgba(0,0,0,0.4);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0.3em 0.5em;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.3s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.vegp-arrow:hover {
+  background: rgba(0,0,0,0.7);
+}
+
+.vegp-arrow-left {
+  left: 0.2em;
+}
+
+.vegp-arrow-right {
+  right: 0.2em;
+}
