@@ -1,6 +1,8 @@
 # Increasing Employee Engagement with E-learning Plattforms (Redcare Pharmacy Internship)
 
-## Overview
+## Under Construction
+
+<!-- ## Overview
 This qualitative study explored how distributed teams coordinate and maintain engagement when working remotely. Conducted for a consulting engagement with Company X in Spring 2024.
 
 ## Background & Objectives
@@ -19,15 +21,15 @@ This qualitative study explored how distributed teams coordinate and maintain en
 3. **Boundary Blur**: Difficulty separating work/home due to flexible schedules, affecting attention.
 
 *(Embed or link to a summary infographic if available)*  
-<!-- ![Summary Infographic](../images/remote-collab-infographic.png) -->
+<!-- ![Summary Infographic](../images/remote-collab-infographic.png) 
 
 ## Recommendations & Impact
 - **Structured Communication Windows**: Suggest “focus hours” with minimal notifications; pilot with Team A resulted in a 15% self-reported increase in concentration.  
 - **Virtual Social Rituals**: Weekly “coffee chat” sessions; feedback indicated improved team cohesion.  
 - **Boundary Guidelines**: Developed guidelines for after-hours messaging; adopted by leadership.
 
-<!-- A full report is available: [Download PDF](../assets/remote-collab-report.pdf) -->
+<!-- A full report is available: [Download PDF](../assets/remote-collab-report.pdf) 
 
 ## Reflections & Next Steps
 - Broader rollout and measurement of longer-term outcomes.
-- Potential follow-up quantitative survey to measure impact across the organization.
+- Potential follow-up quantitative survey to measure impact across the organization. -->
