@@ -1,0 +1,58 @@
+
+.timeline-v2 {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid #3f51b5;
+}
+
+.timeline-v2-item {
+  position: relative;
+  margin-bottom: 2.5rem;
+  padding-left: 2rem;
+}
+
+.timeline-v2-dot {
+  position: absolute;
+  left: -11px;
+  top: 0.6rem;
+  width: 14px;
+  height: 14px;
+  background: #3f51b5;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px #3f51b5;
+}
+
+.timeline-v2-content {
+  background: #fff;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+
+.timeline-v2-content h3 {
+  margin-top: 0;
+  font-size: 1.15rem;
+}
+
+.timeline-v2-content .timeline-date-range {
+  float: right;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.course-tags {
+  margin-top: 0.5rem;
+}
+
+.course-tags span {
+  display: inline-block;
+  background: #e3e9ff;
+  color: #3f51b5;
+  padding: 0.3rem 0.6rem;
+  margin: 0.2rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
