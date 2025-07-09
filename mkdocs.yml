@@ -52,3 +52,4 @@ extra_css:
   - css/cards.css
   - css/timeline.css
   - css/cursor.css
+  - css/hero.css
