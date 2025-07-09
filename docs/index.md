@@ -4,7 +4,7 @@
   <svg width="0" height="0" style="position:absolute">
 
   <div class="hero-photo-wrapper cloud">
-    <img src="/images/me.png" alt="My-pic" class="hero-photo" />
+    <img src="images/me.png" alt="My-pic" class="hero-photo" />
   </div>
 
   <div class="hero-summary">
