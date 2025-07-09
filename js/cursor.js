@@ -7,6 +7,9 @@ function createDot() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+   if (window.matchMedia('(min-width: 700px)').matches === false) {
+    return;
+  }
   const dots = [];
   const numDots = 8;
 
