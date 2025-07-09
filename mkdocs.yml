@@ -3,8 +3,8 @@ site_author: "Sofia Held"
 site_description: "Portfolio showcasing behavioural science projects and research illustrative of my work."
 theme:
   name: material
-  palette:
-    scheme: default
+  # palette:
+  #   scheme: default
   highlightjs: true
   highlight_theme: 'ayu'  # try 'monokai', 'solarized-light', 'default', etc.
 nav:
@@ -45,8 +45,10 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
   - js/mermaid-init.js
   - js/arrows.js
+  - js/cursor.js
 
 extra_css:
+  - css/overrides.css
   - css/cards.css
   - css/timeline.css
-  - css/overrides.css
+  - css/cursor.css
