@@ -1,0 +1,14 @@
+/* Cursor‑trail dots */
+.cursor-dot {
+  position: fixed;
+  pointer-events: none;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px; /* center on the point */
+  background: var(--md-accent-fg-color);
+  opacity: 0.4;
+  border-radius: 50%;
+  transition: background 0.2s ease;
+  will-change: transform, left, top;
+}
+

@@ -1,4 +1,5 @@
 /* General code block styling */
+
 code, pre {
   font-family: 'Fira Code', 'Courier New', monospace;
   font-size: 0.9rem;
@@ -91,7 +92,7 @@ pre:hover {
 }
 
 .vegp-arrow:hover {
-  background: rgba(0,0,0,0.7);
+  background: rgba(207, 90, 90, 0.7);
 }
 
 .vegp-arrow-left {
@@ -100,4 +101,80 @@ pre:hover {
 
 .vegp-arrow-right {
   right: 0.2em;
+}
+
+/* ===========================
+   1. Palette Overrides
+   =========================== */
+:root {
+  --md-primary-fg-color:   #3990bb; /* deep slate-blue */
+  --md-primary-bg-color:   #ffffff; /* light grey */
+  --md-accent-fg-color:    #1838d6; /* muted teal */
+  --md-accent-bg-color:    #ffffff; /* pale teal */
+}
+
+/* ===========================
+   Animated Gradient Background
+   =========================== */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: -1;
+  background: linear-gradient(135deg, #ffffff 25%, #d2f4fa 75%);
+  background-size: 400% 400%;
+  opacity: 0.3;
+  animation: bgShift 20s ease infinite;
+  pointer-events: none;
+}
+
+/* Very subtle noise */
+body::after {
+  content: '';
+  position: -1;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: -1;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAF0lEQVQYV2NkYGD4z0AEYBxVSFUAAGBZBSu7r/jAAAAAElFTkSuQmCC');
+  opacity: 0.03;
+  pointer-events: none;
+}
+
+@keyframes bgShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+
+@keyframes drift {
+  0%   { transform: translate(0px, 0px); opacity: 1; }
+  50%  { transform: translate(-2px, -4px); opacity: 0.6; }
+  100% { transform: translate(0px, 0px); opacity: 1; }
+}
+
+
+.corner-cluster circle {
+  animation: drift 6s ease-in-out infinite;
+  transform-origin: center;
+}
+
+/* Optional: stagger animations for each dot */
+.corner-cluster circle:nth-child(3) { animation-delay: 0s; }
+.corner-cluster circle:nth-child(4) { animation-delay: 1s; }
+.corner-cluster circle:nth-child(5) { animation-delay: 2s; }
+.corner-cluster circle:nth-child(6) { animation-delay: 3s; }
+.corner-cluster circle:nth-child(7) { animation-delay: 4s; }
+
+.corner-cluster {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.16;
 }
