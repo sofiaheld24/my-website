@@ -1,35 +1,20 @@
 # Increasing Employee Engagement with E-learning Plattforms (Redcare Pharmacy Internship)
 
-## Under Construction
 
-<!-- ## Overview
-This qualitative study explored how distributed teams coordinate and maintain engagement when working remotely. Conducted for a consulting engagement with Company X in Spring 2024.
+## Overview
+I worked with Redcare Pharmacy in Cologne, Germany for 4 months as part of the People and Development team.
 
-## Background & Objectives
-- **Context**: Rising trend of hybrid work prompted Company X to understand challenges in remote collaboration.
-- **Objective**: Identify communication pain points and propose behavioural interventions to improve engagement and productivity.
+## Acquired Skills
+I developed many different skills during this internship, most notably:
 
-## Methods
-- **Design**: Semi-structured interviews with 20 team members across departments.
-- **Data Collection**: Interviews conducted via video call, recorded with consent, transcribed and anonymized.
-- **Analysis**: Thematic analysis using NVivo; coding framework developed iteratively.
-- **Ethics**: Participants provided informed consent; transcripts stored securely; identifiable data removed.
+* Using Excel to track engagement metrics and display results
+* Using confluence to co-develop the onboarding platform for the company
+* Managed the Learning Management System (Udemy), ensuring platform usability, designing
+engagement strategies and tracking employee engagement and usage analytics.
+* Promoted a new leadership model through workshops and communication campaigns.
 
-## Key Findings
-1. **Over-communication Fatigue**: Many participants felt overwhelmed by constant messaging.
-2. **Lack of Rituals**: Absence of informal “watercooler” interactions decreased sense of team cohesion.
-3. **Boundary Blur**: Difficulty separating work/home due to flexible schedules, affecting attention.
 
-*(Embed or link to a summary infographic if available)*  
-<!-- ![Summary Infographic](../images/remote-collab-infographic.png) 
+## Specifics
+I cannot disclose or showcase most of the work during my internship, but my supervisors provided me with a letter of reference stating all the disclosable details. You can see it here:
 
-## Recommendations & Impact
-- **Structured Communication Windows**: Suggest “focus hours” with minimal notifications; pilot with Team A resulted in a 15% self-reported increase in concentration.  
-- **Virtual Social Rituals**: Weekly “coffee chat” sessions; feedback indicated improved team cohesion.  
-- **Boundary Guidelines**: Developed guidelines for after-hours messaging; adopted by leadership.
-
-<!-- A full report is available: [Download PDF](../assets/remote-collab-report.pdf) 
-
-## Reflections & Next Steps
-- Broader rollout and measurement of longer-term outcomes.
-- Potential follow-up quantitative survey to measure impact across the organization. -->
+ <iframe src="../../assets/Held_Sofia_Reference_letter.pdf" width="90%" height="500px" style="border: none;"></iframe>

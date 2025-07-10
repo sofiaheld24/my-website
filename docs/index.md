@@ -1,4 +1,4 @@
-# Welcome!
+# Hi, I’m Sofia!
 <section class="hero-two-col">
   <!-- SVG clipPath for the cloud shape -->
   <svg width="0" height="0" style="position:absolute">
@@ -9,12 +9,14 @@
 
   <div class="hero-summary">
     <p>
-       Welcome to my portfolio! My name is Sofia, and I am a behavioural scientist, graduated with a BSc in Psychology from Jacobs University Bremen and a Masters in Behaviour Change from University College London. 
+       I’m a psychologist with a background in behavioral science and business administration, and with a passion for technology and human wellbeing. I believe in using evidence-based insights to help people and organizations not just function — but truly thrive.
     </p>
   </div>
 </section>
 
-In this website you can find detailed write-ups of my research projects, code samples, and results. Feel free to explore the projects section for in-depth case studies, or learn more about my background in the About page.
+My work explores how we can design better systems, build healthier habits, and enhance performance through behavior change. From individual wellbeing to organizational development, I’m driven by the idea that science can help us all outperform our limits — with clarity, compassion, and purpose.
+
+Whether you're here out of curiosity, collaboration, or shared interests, I’m glad you stopped by. Feel free to explore and reach out!
 
 ## Featured Work
 

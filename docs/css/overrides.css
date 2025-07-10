@@ -156,12 +156,12 @@ body::after {
 }
 
 
-.corner-cluster circle {
+/* .corner-cluster circle {
   animation: drift 6s ease-in-out infinite;
   transform-origin: center;
 }
 
-/* Optional: stagger animations for each dot */
+ Optional: stagger animations for each dot 
 .corner-cluster circle:nth-child(3) { animation-delay: 0s; }
 .corner-cluster circle:nth-child(4) { animation-delay: 1s; }
 .corner-cluster circle:nth-child(5) { animation-delay: 2s; }
@@ -177,4 +177,4 @@ body::after {
   z-index: -1;
   pointer-events: none;
   opacity: 0.16;
-}
+} */
